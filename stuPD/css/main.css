@@ -1,0 +1,49 @@
+h1,h2,h3,h4 {
+    color : black;
+    font-variant: small-caps;
+    font-family: Verdana, Geneva, sans-serif;
+
+}
+
+.Top {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: indigo;
+}
+
+.Top a {
+    float: left;
+    display: block;
+    color: cornflowerblue;
+    text-align: center; 
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+.Top a:hover {
+    background: purple;
+    color: black;
+}
+
+.Main {
+    margin-top: 50px;
+}
+p {
+    font-size : 1.25em;
+    font-family: Verdana, Geneva, sans-serif;
+    border-left: solid;
+    border-color: blue;
+    border-width : 5px;
+    background-color: lightblue;
+    margin-right : 5px;
+    padding-left: 20px;
+    padding-top : 10px;
+    padding-bottom : 10px;
+}
+
+button {
+    onclick: :
+}
