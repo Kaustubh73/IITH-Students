@@ -1,49 +1,93 @@
-h1,h2,h3,h4 {
-    color : black;
-    font-variant: small-caps;
-    font-family: Verdana, Geneva, sans-serif;
-
+.head {
+  
+    width : 100%;
+    font-family: sans-serif;
+    color : #F9FAF8;
 }
 
-.Top {
-    overflow: hidden;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    background-color: indigo;
+h1 {
+    color : #F9FAF8;
+    font-size: 24px;
+    padding : 30px;
+    margin-left: 150px;
+    font-family: sans-serif;
 }
+.box {
+    display: flex;
+  }
+  
+  .box > div {
+    font-size:36px;
+    width : 100%;
+    padding-left : 150px;
+    margin-bottom:50px;
+    font-family: sans-serif;
+    color : #F9FAF8;
+  }
 
-.Top a {
-    float: left;
-    display: block;
-    color: cornflowerblue;
-    text-align: center; 
-    padding: 14px 16px;
-    text-decoration: none;
-    font-family: Verdana, Geneva, sans-serif;
-}
+div.intro {
+   
+    margin-top:10px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #1f2937;
+    border: 1px solid black;
+    border-radius:10px;
+    box-shadow: 10px 10px black;
+    max-width:400px;
+    font-size: 20px;
+    text-justify: auto;
+    opacity :0.8;
+  }
+  
+  div.intro p {
+    margin: 5%;
+    font-size:16px;
+    font-weight: bolder;
+    color: #FFFFFF;
+  }
 
-.Top a:hover {
-    background: purple;
-    color: black;
-}
 
-.Main {
-    margin-top: 50px;
-}
-p {
-    font-size : 1.25em;
-    font-family: Verdana, Geneva, sans-serif;
-    border-left: solid;
-    border-color: blue;
-    border-width : 5px;
-    background-color: lightblue;
-    margin-right : 5px;
-    padding-left: 20px;
-    padding-top : 10px;
-    padding-bottom : 10px;
-}
 
-button {
-    onclick: :
-}
+
+  .grid-container {
+    display: grid;
+    gap: 10px;
+    background-color:#ffffff;
+    padding: 70px;
+  }
+  
+  .grid-item {
+  
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    border-radius: 10px;
+  }
+  
+  .item1 {
+    background-color: #8ddcf2;
+    grid-column: 1 / span 2;
+    grid-row: 1;
+  }
+  
+  .item2 {
+    background-color: #1F2937;
+    grid-column: 3;
+    grid-row: 1 / span 2;
+  }
+  .item4 {
+    background-color: #1F2937;
+  }
+  
+  .item5 {
+    background-color: #8ddcf2;
+    grid-column: 1 / span 3;
+    grid-row: 3;
+  }
+  .item6 {
+    background-color: #8ddcf2;
+    grid-column: 1 / span 2;
+    grid-row: 4;
+  }
+
+  
